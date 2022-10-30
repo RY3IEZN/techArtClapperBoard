@@ -6,9 +6,10 @@ import Navigating from "./src/navigation/Navigating";
 import Dashboard from "./src/screens/Dashboard";
 import Dashboard2 from "./src/screens/Dashboard2";
 import OnboardingScreen from "./src/screens/OnboardingScreen";
+import SearchScreen from "./src/screens/SearchScreen";
 
 export default function App() {
-  return <Dashboard />;
+  return <SearchScreen />;
 }
 
 const styles = StyleSheet.create({});

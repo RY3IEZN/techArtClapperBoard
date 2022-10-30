@@ -24,7 +24,7 @@ function CategoryImgs(props) {
     {
       titleText: "Secrete wars",
       subtitleText: "2022",
-      imageUrl: require("../../../assets/images/continue_1.png"),
+      imageUrl: require("../../../assets/images/feature1.png"),
     },
   ];
 

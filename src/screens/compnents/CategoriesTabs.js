@@ -5,7 +5,7 @@ import { View, StyleSheet, Text } from "react-native";
 
 function CategoriesTabs(props) {
   return (
-    <View style={{ flexDirection: "row", marginTop: 10 }}>
+    <View style={{ flexDirection: "row", marginVertical: 15 }}>
       <View
         style={{
           flexDirection: "row",

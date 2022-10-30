@@ -57,6 +57,9 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#181818",
   },
+  headerTitle: {
+    color: "white",
+  },
 });
 
 export default Dashboard;
