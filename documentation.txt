@@ -1,0 +1,8 @@
+installations
+ expo linear gradient
+ reactnative navigation
+ expo blur
+
+
+icons
+materialcommunityicons
