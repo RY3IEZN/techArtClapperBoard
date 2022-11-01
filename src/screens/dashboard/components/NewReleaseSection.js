@@ -21,7 +21,7 @@ function NewReleaseSection(props) {
         }}
       >
         <ImageBackground
-          source={require("../../../assets/images/movie_1.png")}
+          source={require("../../../../assets/images/movie_1.png")}
           style={{
             height: 200,
             borderRadius: 50,

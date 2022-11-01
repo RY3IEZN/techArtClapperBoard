@@ -4,10 +4,10 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import OnboardingScreen from "../screens/OnboardingScreen";
-import Dashboard from "../screens/Dashboard";
-import MovieDetailScreen from "../screens/MovieDetailScreen";
-import SearchScreen from "../screens/SearchScreen";
+import Dashboard from "../screens/dashboard/Dashboard";
+import OnboardingScreen from "../screens/onboarding/OnboardingScreen";
+import SearchScreen from "../screens/SearchScreen/SearchScreen";
+import MovieDetailScreen from "../screens/moviedetailscreen/MovieDetailScreen";
 
 function Navigating(props) {
   const Stack = createNativeStackNavigator();

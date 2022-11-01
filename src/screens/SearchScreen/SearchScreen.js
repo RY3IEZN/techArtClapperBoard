@@ -2,10 +2,10 @@
 
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
-import SearchBar from "./SearchScreen/components/SearchBar";
-import Row1 from "./SearchScreen/components/Row1";
-import SearchCategoryItems from "./SearchScreen/components/SearchCategoryItems";
-import AppContainer from "../components/AppContainer";
+import AppContainer from "../../components/AppContainer";
+import Row1 from "./components/Row1";
+import SearchBar from "./components/SearchBar";
+import SearchCategoryItems from "./components/SearchCategoryItems";
 
 function SearchScreen(props) {
   return (

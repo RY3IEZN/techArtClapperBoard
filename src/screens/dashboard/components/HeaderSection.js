@@ -2,10 +2,10 @@
 
 import React from "react";
 import { View, StyleSheet, Text, TouchableOpacity } from "react-native";
-import ProfilePic from "../../components/ProfilePic";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import ProfilePic from "../../../components/ProfilePic";
 
-function HeaderSection(props) {
+function HeaderSection({ navigation }) {
   return (
     <View
       style={{

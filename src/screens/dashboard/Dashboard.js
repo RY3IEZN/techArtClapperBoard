@@ -11,12 +11,12 @@ import {
   TouchableOpacity,
   ScrollView,
 } from "react-native";
-import HeaderSection from "./compnents/HeaderSection";
-import NewReleaseSection from "./compnents/NewReleaseSection";
-import ContinueWatchingSection from "./compnents/ContinueWatchingSection";
-import CategoriesTabs from "./compnents/CategoriesTabs";
-import CategoryImgs from "./compnents/CategoryImgs";
-import AppContainer from "../components/AppContainer";
+import AppContainer from "../../components/AppContainer";
+import CategoriesTabs from "./components/CategoriesTabs";
+import CategoryImgs from "./components/CategoryImgs";
+import ContinueWatchingSection from "./components/ContinueWatchingSection";
+import HeaderSection from "./components/HeaderSection";
+import NewReleaseSection from "./components/NewReleaseSection";
 
 function Dashboard({ navigation }) {
   return (

@@ -11,7 +11,7 @@ import {
   TouchableOpacity,
   Alert,
 } from "react-native";
-import CustomButton from "../components/CustomButton";
+import CustomButton from "../../components/CustomButton";
 
 function OnboardingScreen({ navigation }) {
   return (
@@ -19,7 +19,7 @@ function OnboardingScreen({ navigation }) {
       <Image
         resizeMethod="auto"
         style={styles.image}
-        source={require("../../assets/images/onboardingImg.png")}
+        source={require("../../../assets/images/onboardingImg.png")}
       />
       <Text style={styles.title}>Onboarding</Text>
       <Text style={styles.subTitle}>Watch everything you want</Text>

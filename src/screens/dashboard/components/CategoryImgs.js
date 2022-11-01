@@ -9,22 +9,22 @@ function CategoryImgs(props) {
     {
       titleText: "Secrete wars",
       subtitleText: "2022",
-      imageUrl: require("../../../assets/images/feature1.png"),
+      imageUrl: require("../../../../assets/images/feature1.png"),
     },
     {
       titleText: "Secrete wars",
       subtitleText: "2022",
-      imageUrl: require("../../../assets/images/feature2.png"),
+      imageUrl: require("../../../../assets/images/feature2.png"),
     },
     {
       titleText: "Secrete wars",
       subtitleText: "2022",
-      imageUrl: require("../../../assets/images/feature1.png"),
+      imageUrl: require("../../../../assets/images/feature1.png"),
     },
     {
       titleText: "Secrete wars",
       subtitleText: "2022",
-      imageUrl: require("../../../assets/images/feature1.png"),
+      imageUrl: require("../../../../assets/images/feature1.png"),
     },
   ];
 
@@ -51,7 +51,7 @@ export default CategoryImgs;
   /* <View style={{ flexDirection: "row", marginTop: 20 }}>
 <View style={{ marginRight: 10 }}>
   <Image
-    source={require("../../../assets/images/feature1.png")}
+    source={require("../../../../assets/images/feature1.png")}
     style={{ width: 150 }}
   />
   <Text
@@ -76,7 +76,7 @@ export default CategoryImgs;
 </View>
 <View style={{ marginRight: 20 }}>
   <Image
-    source={require("../../../assets/images/feature2.png")}
+    source={require("../../../../assets/images/feature2.png")}
     style={{ width: 150 }}
   />
   <Text style={{ color: "white", textAlign: "center", marginTop: 10 }}>
@@ -93,7 +93,7 @@ export default CategoryImgs;
   </Text>
 </View>
 <View>
-  <Image source={require("../../../assets/images/feature1.png")} />
+  <Image source={require("../../../../assets/images/feature1.png")} />
   <Text style={{ color: "white", textAlign: "center", marginTop: 10 }}>
     Secret Wars
   </Text>

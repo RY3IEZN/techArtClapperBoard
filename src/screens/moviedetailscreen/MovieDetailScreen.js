@@ -8,7 +8,7 @@ import { LinearGradient } from "expo-linear-gradient";
 function MovieDetailScreen(props) {
   return (
     <View style={styles.container}>
-      <Image source={require("../../assets/images/moviethumbnail.png")} />
+      <Image source={require("../../../assets/images/moviethumbnail.png")} />
       <View style={{ marginHorizontal: 20, marginTop: 10 }}>
         <View
           style={{
@@ -93,7 +93,7 @@ function MovieDetailScreen(props) {
                 }}
               >
                 <Image
-                  source={require("../../assets/images/actora.png")}
+                  source={require("../../../assets/images/actora.png")}
                   style={{
                     width: 62,
                     height: 62,
@@ -133,7 +133,7 @@ function MovieDetailScreen(props) {
                 }}
               >
                 <Image
-                  source={require("../../assets/images/actorc.png")}
+                  source={require("../../../assets/images/actorc.png")}
                   style={{
                     width: 62,
                     height: 62,
@@ -174,7 +174,7 @@ function MovieDetailScreen(props) {
                 }}
               >
                 <Image
-                  source={require("../../assets/images/actorb.png")}
+                  source={require("../../../assets/images/actorb.png")}
                   style={{
                     width: 62,
                     height: 62,
@@ -213,7 +213,7 @@ function MovieDetailScreen(props) {
                 }}
               >
                 <Image
-                  source={require("../../assets/images/actord.png")}
+                  source={require("../../../assets/images/actord.png")}
                   style={{
                     width: 62,
                     height: 62,

@@ -16,22 +16,22 @@ function ContinueWatchingSection(props) {
     {
       titleText: "Grappler Baki",
       subtitleText: "T.1 Episode 4",
-      imageUrl: require("../../../assets/images/continue_1.png"),
+      imageUrl: require("../../../../assets/images/continue_1.png"),
     },
     {
       titleText: "Boku no hero",
       subtitleText: "T.3 Episode 10",
-      imageUrl: require("../../../assets/images/continue_2.png"),
+      imageUrl: require("../../../../assets/images/continue_2.png"),
     },
     {
       titleText: "Hackiii",
       subtitleText: "T.3 Episode 10",
-      imageUrl: require("../../../assets/images/continue_1.png"),
+      imageUrl: require("../../../../assets/images/continue_1.png"),
     },
     {
       titleText: "Boku no hero",
       subtitleText: "T.3 Episode 10",
-      imageUrl: require("../../../assets/images/continue_1.png"),
+      imageUrl: require("../../../../assets/images/continue_1.png"),
     },
   ];
 
