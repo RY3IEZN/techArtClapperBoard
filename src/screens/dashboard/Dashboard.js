@@ -25,14 +25,18 @@ function Dashboard({ navigation }) {
         <StatusBar style="auto" />
         <AppContainer>
           {/* header section */}
-          <HeaderSection />
+          <HeaderSection
+            onPressed={() => navigation.navigate("searchScreen")}
+          />
 
           <View style={{ marginTop: 20 }}>
             <Text style={styles.headerTitle}>New Release.</Text>
           </View>
 
           {/* new relase image */}
-          <NewReleaseSection />
+          <NewReleaseSection
+            onPressed={() => navigation.navigate("moviedetail")}
+          />
 
           <View style={{ marginTop: 20 }}>
             <Text style={styles.headerTitle}>Continue Watching.</Text>

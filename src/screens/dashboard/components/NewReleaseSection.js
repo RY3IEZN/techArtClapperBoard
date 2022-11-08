@@ -10,9 +10,9 @@ import {
 } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
-function NewReleaseSection(props) {
+function NewReleaseSection({ onPressed, navigation }) {
   return (
-    <TouchableOpacity onPress={() => navigation.navigate("moviedetail")}>
+    <TouchableOpacity onPress={onPressed}>
       <View
         style={{
           borderRadius: 20,

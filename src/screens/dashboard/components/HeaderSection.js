@@ -5,7 +5,7 @@ import { View, StyleSheet, Text, TouchableOpacity } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import ProfilePic from "../../../components/ProfilePic";
 
-function HeaderSection({ navigation }) {
+function HeaderSection({ onPressed, navigation }) {
   return (
     <View
       style={{
@@ -21,7 +21,7 @@ function HeaderSection({ navigation }) {
             <Text style={styles.headerSubTitle}>Username</Text>
           </View>
         </View>
-        <TouchableOpacity onPress={() => navigation.navigate("searchScreen")}>
+        <TouchableOpacity onPress={onPressed}>
           <MaterialCommunityIcons name="magnify" size={50} color="white" />
         </TouchableOpacity>
       </View>
